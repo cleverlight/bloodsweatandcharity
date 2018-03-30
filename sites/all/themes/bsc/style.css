@@ -1,0 +1,468 @@
+
+/**
+ * Generic elements
+ */
+body {
+  margin: 0;
+  padding: 0;
+  background: #e9e9e9;
+  background: #e9e9e9;
+  font: 12px/150% Verdana;
+  color: #494949;
+}
+
+input {
+  font: 12px/100% "Verdana";
+  color: #494949;
+}
+
+textarea, select {
+  font: 12px/160% "Verdana";
+  color: #494949;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 160%;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 140%;
+}
+
+h4 {
+  font-size: 130%;
+}
+
+h5 {
+  font-size: 120%;
+}
+
+h6 {
+  font-size: 110%;
+}
+
+ul, quote, code, fieldset {
+  margin: .5em 0;
+}
+
+p {
+  margin: 0.6em 0 1.2em;
+  padding: 0;
+}
+
+a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+a:active, a.active {
+  color: #5895be;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #5294c1;
+}
+
+ul {
+  margin: 0.5em 0 1em;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.4em 0 0.4em .5em;
+}
+
+ul.menu, .item-list ul {
+  margin: 0.35em 0 0 -0.5em;
+  padding: 0;
+}
+
+ul.menu ul, .item-list ul ul {
+  margin-left: 0em;
+}
+
+ul li, ul.menu li, .item-list ul li, li.leaf {
+  margin: 0.15em 0 0.15em .5em;
+}
+
+ul.menu li, .item-list ul li, li.leaf {
+  padding: 0 0 .2em 1.5em;
+  list-style-type: none;
+  list-style-image: none;
+  background: transparent url(http://www.bloodsweatandcharity.co.uk/sites/all/themes/bsc/images/menu-leaf.gif) no-repeat 1px .35em;
+}
+
+ul li.expanded {
+  background: transparent url(images/menu-expanded.gif) no-repeat 1px .35em;
+}
+
+ul li.collapsed {
+  background: transparent url(images/menu-collapsed.gif) no-repeat 0px .35em;
+}
+
+ul li.leaf a, ul li.expanded a, ul li.collapsed a {
+  display: block;
+}
+
+ul.inline li {
+  background: none;
+  margin: 0;
+  padding: 0 1em 0 0;
+}
+
+fieldset ul.clear-block li {
+  margin: 0;
+  padding: 0;
+  background-image: none;
+}
+
+dl {
+  margin: 0.5em 0 1em 1.5em;
+}
+
+dl dt {
+}
+
+dl dd {
+  margin: 0 0 .5em 1.5em;
+}
+
+img, a img {
+  border: none;
+}
+
+table {
+  margin: 1em 0;
+  width: 100%;
+}
+
+thead th {
+  border-bottom: 2px solid #d3e7f4;
+  color: #494949;
+  font-weight: bold;
+}
+
+th a:link, th a:visited {
+  color: #6f9dbd;
+}
+
+td, th {
+  padding: .3em .5em;
+}
+
+tr.even, tr.odd, tbody th {
+  border: solid #d3e7f4;
+  border-width: 1px 0;
+}
+
+tr.odd, tr.info {
+  background-color: #edf5fa;
+}
+
+tr.even {
+  background-color: #fff;
+}
+
+tr.odd td.active {
+  background-color: #ddecf5;
+}
+
+tr.even td.active {
+  background-color: #e6f1f7;
+}
+
+td.region, td.module, td.container {
+  border-top: 1.5em solid #fff;
+  border-bottom: 1px solid #b4d7f0;
+  background-color: #d4e7f3;
+  color: #455067;
+  font-weight: bold;
+}
+
+tr:first-child td.region, tr:first-child td.module, tr:first-child td.container {
+  border-top-width: 0;
+}
+
+span.form-required {
+  color: #ffae00;
+}
+
+span.submitted, .description {
+  font-size: 0.92em;
+  color: #898989;
+}
+
+.description {
+  line-height: 150%;
+  margin-bottom: 0.75em;
+  color: #898989;
+}
+
+.messages, .preview {
+  margin: .75em 0 .75em;
+  padding: .5em 1em;
+}
+
+.messages ul {
+  margin: 0;
+}
+
+.form-checkboxes, .form-radios, .form-checkboxes .form-item, .form-radios .form-item {
+  margin: 0.25em 0;
+}
+
+#center form {
+  margin-bottom: 2em;
+}
+
+.form-button, .form-submit {
+  margin: 2em 0.5em 1em 0;
+}
+
+#watchdog-form-overview .form-submit,
+.confirmation .form-submit,
+.search-form .form-submit,
+.poll .form-submit,
+fieldset .form-button, fieldset .form-submit,
+.sidebar .form-button, .sidebar .form-submit,
+table .form-button, table .form-submit {
+  margin: 0;
+}
+
+.box {
+  margin-bottom: 2.5em;
+}
+
+
+/**
+ * Autocomplete.
+ */
+#autocomplete li {
+  cursor: default;
+  padding: 2px;
+  margin: 0;
+}
+
+/**
+ * Collapsible fieldsets
+ */
+fieldset {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #d9eaf5;
+  background: #fff;
+}
+
+fieldset legend {
+  /* Fix disappearing legend in FFox */
+  display: block;
+}
+
+html.js fieldset.collapsed {
+  background: transparent;
+  padding-top: 0;
+  padding-bottom: .6em;
+}
+
+html.js fieldset.collapsible legend a {
+  padding-left: 2em;
+  background: url(images/menu-expanded.gif) no-repeat 0% 50%;
+}
+
+html.js fieldset.collapsed legend a {
+  background: url(images/menu-collapsed.gif) no-repeat 0% 50%;
+}
+
+/**
+ * Login Block
+ */
+ 
+#header #block-user-0 h3 {
+	display: none;
+}
+
+#user-login-form {
+  text-align: center;
+}
+
+#user-login-form ul {
+  text-align: left;
+}
+
+/**
+ * Admin Styles
+ */
+div.admin-panel,
+div.admin-panel .description,
+div.admin-panel .body,
+div.admin,
+div.admin .left,
+div.admin .right,
+div.admin .expert-link,
+div.item-list,
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+div.admin .left {
+  float: left;
+  width: 48%;
+}
+div.admin .right {
+  float: right;
+  width: 48%;
+}
+
+div.admin-panel {
+  background: #fff url(http://www.bloodsweatandcharity.co.uk/sites/all/themes/bsc/images/gradient-inner.png) repeat-x 0 0;
+  padding: 1em 1em 1.5em;
+}
+div.admin-panel .description {
+  margin-bottom: 1.5em;
+}
+div.admin-panel dl {
+  margin: 0;
+}
+div.admin-panel dd {
+  color: #898989;
+  font-size: 0.92em;
+  line-height: 1.3em;
+  margin-top: -.2em;
+  margin-bottom: .65em;
+}
+
+table.system-status-report th {
+  border-color: #d3e7f4;
+}
+
+#autocomplete li.selected, tr.selected td, tr.selected td.active {
+  background: #027ac6;
+  color: #fff;
+}
+
+tr.selected td a:link, tr.selected td a:visited, tr.selected td a:active {
+  color: #d3e7f4;
+}
+
+/**
+ * CSS support
+ */
+span.clear {
+  display: block;
+  clear: both;
+  height: 1px;
+  line-height: 0px;
+  font-size: 0px;
+  margin-bottom: -1px;
+}
+
+/*******************************************************************
+ * Color Module: Don't touch                                       *
+ *******************************************************************/
+
+/**
+ * Generic elements.
+ */
+.messages {
+  background-color: #fff;
+  border: 1px solid #b8d3e5;
+}
+
+.preview {
+  background-color: #fcfce8;
+  border: 1px solid #e5e58f;
+}
+
+div.status {
+  color: #3a3;
+  border-color: #c7f2c8;
+}
+
+div.error {
+  color: #c52020;
+}
+
+.form-item input.error, .form-item textarea.error {
+  border: 1px solid #c52020;
+  color: #494949;
+}
+
+/**
+ * Watchdog.module
+ */
+tr.watchdog-user {
+  background-color: #fcf9e5;
+}
+
+tr.watchdog-user td.active {
+  background-color: #fbf5cf;
+}
+
+tr.watchdog-content {
+  background-color: #fefefe;
+}
+
+tr.watchdog-content td.active {
+  background-color: #f5f5f5;
+}
+
+tr.watchdog-warning {
+  background-color: #fdf5e6;
+}
+
+tr.watchdog-warning td.active {
+  background-color: #fdf2de;
+}
+
+tr.watchdog-error {
+  background-color: #fbe4e4;
+}
+
+tr.watchdog-error td.active {
+  background-color: #fbdbdb;
+}
+tr.watchdog-page-not-found, tr.watchdog-access-denied {
+  background: #d7ffd7;
+}
+tr.watchdog-page-not-found td.active, tr.watchdog-access-denied td.active {
+  background: #c7eec7;
+}
+
+/**
+ * Status report colors.
+ */
+table.system-status-report tr.error, table.system-status-report tr.error th {
+  background-color: #fcc;
+  border-color: #ebb;
+  color: #200;
+}
+table.system-status-report tr.warning, table.system-status-report tr.warning th {
+  background-color: #ffd;
+  border-color: #eeb;
+}
+table.system-status-report tr.ok, table.system-status-report tr.ok th {
+  background-color: #dfd;
+  border-color: #beb;
+}

@@ -1,0 +1,503 @@
+/* General theme stuff */
+
+body {
+	background-color: #ffffff;
+	color: #535355;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+h2 {
+	color: #666666;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana;
+	padding: 0 0 8px 0;
+}
+
+h3 {
+	color: #666666;
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: bold;
+	margin-bottom: -0.5em;
+}
+
+h4 {
+	color: #06477F;
+	font-size: 11px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+h5 {
+	color: #544B4E;
+	color: #3F383A;
+	font-size: 11px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+/* Views block */
+
+div.block-views h2 {
+	margin-bottom: 5px;
+}
+
+div.block-views h5 {
+	margin-bottom: 0;
+}
+
+div.block-views p {
+	margin: 0;
+}
+
+div.block-views a {
+	color: #228C89;
+	font-size: 11px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+/* Layout */
+
+#header {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#header div.block {
+  height: 280px;
+}
+
+#header .login {
+	background-color: #DBE0E3;
+	float: right;
+	height: 29px;
+	color: #385F99;
+	width: 320px;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 0 25px 0 15px;
+}
+
+#header .login .text {
+	width: 118px;
+	height: 17px;
+	background-color: #F9F9FB;
+	border-color: #B9B5B4;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#header .login .go {
+	background-color: #365E99;
+	border-width: 0;
+	width: 27px;
+	height: 20px;
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	position: relative;
+	top: 1px;
+	padding: 0;
+}
+
+#inner_container {
+	padding: 10px 0 0 0;
+}
+
+#lower_container {
+}
+
+#sidebar-left {
+	width: 145px;
+	float: left;
+	margin-left: 6px;
+}
+
+#center {
+	padding: 32px 0 0 5px;
+	float: right;
+	width: 566px;
+	background-image: url("http://www.bloodsweatandcharity.co.uk/sites/all/themes/bsc/images/contentback.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+#left {
+	width: 335px;
+	float: left;
+	padding-left: 65px;
+}
+
+#right {
+	width: 335px;
+	float: right;
+}
+
+#sidebar-right {
+	float: right;
+	width: 120px;
+}
+
+#sidebar-right h3 {
+	margin-bottom: 5px;
+}
+
+#sidebar-right img {
+	margin-bottom: 6px;
+}
+
+a.more {
+	margin-bottom: 30px;
+	display: block;
+}
+
+#footer {
+	color: #AAAAAA;
+	clear: both;
+	background-color: #DBE0E3;
+	height: 56px;
+	width: 100%;
+	font-size: 10px;
+	text-align: left;
+}
+
+#footer ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	position: relative;
+	top: 10px;
+}
+
+#footer li {
+	display: inline;
+	background: none;
+	border-left: 1px solid #AAAAAA;
+}
+
+#footer ul.menu li, #footer li.leaf {
+  padding: 0 0 .2em .7em;
+}
+
+#footer li a {
+	color: #AAAAAA;
+	display: inline;
+}
+
+div#footer .premenu {
+	float: left;
+	margin: 10px 10px 0 20px;
+}
+
+.clearFloats {
+	clear: both;
+}
+
+div.clearFloats {
+	height: 0px;
+	margin-top: -10px;
+	overflow: hidden;
+}
+
+#container {
+	width: 784px;
+	padding: 0;
+	margin: 0 auto 0 auto;
+}
+
+
+#menu {
+	width: 255px;
+	float: left;
+	position: relative;
+	left: -265px;
+	margin-right: -265px;
+	padding: 10px 0 10px 0;
+}
+
+
+#page {
+	width: 100%;
+	float: left;
+}
+
+#banner {
+	width: 775px;
+	height: 208px;
+	padding: 50px 360px 0 60px;
+	width: 355px;
+	height: 158px;
+	margin-bottom: 25px;
+}
+
+#banner h2 {
+	color: #D95084;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+#banner h3 {
+	font-size: 25px;
+	color: #ffffff;
+	font-weight: normal;
+	margin: 0;
+}
+
+#banner p {
+	color: #B1AFB0;
+	line-height: 14px;
+}
+
+#banner a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.magicsep {
+	background-image: url("http://www.bloodsweatandcharity.co.uk/sites/all/themes/bsc/images/seperatorff.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.breadcrumb {
+	float: right;
+	width: 300px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+.no-field-labels .field-label {
+	display: none;
+}
+
+/* Top menu */
+
+#topmenu {
+	background-image: url("images/menu_repeat.jpg");
+	background-repeat: repeat-x;
+	background-position: 0 3px;
+	height: 37px;
+	overflow: hidden;
+	padding: 0;
+	margin: 30px -4px 0 20px;
+	width: 574px;
+	float: left;
+}
+
+#topmenu #topmenu_inner {
+	background-image: url("images/menu_right.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 3px;
+	margin: 0;
+	height: 36px;
+}
+
+#topmenu #topmenu_inner div {
+	background-image: url("images/menu_left.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	height: 36px;
+	padding: 2px 0 4px 0;
+}
+
+#menulist {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menulist li {
+	display: block;
+	padding: 3px 0 0 0;
+	margin: 0px;
+	height: 26px;
+	float: left;
+	text-align: center;
+}
+
+#menulist li a {
+	display: block;
+	height: 24px;
+	padding: 7px 14px 0 14px;
+	border-color: #000000 #000000 #000000 #E0E0E0;
+	border-style: none none none solid;
+	border-width: 1px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	white-space: nowrap;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center -1px;
+}
+
+/* coloured dots */
+#menulist li.whoe a {
+	background-image: url("images/colourdot-red.jpg");
+}
+
+#menulist li.whao a {
+	background-image: url("images/colourdot-orange.jpg");
+}
+
+#menulist li.whoh a {
+	background-image: url("images/colourdot-yellow.jpg");
+}
+
+#menulist li.whyr a {
+	background-image: url("images/colourdot-green.jpg");
+}
+
+/* first and last menu items */
+#menulist li.first a {
+	border-style: none none none none;
+}
+
+#menulist li.last a {
+	border-style: none none none solid;
+}
+
+#menulist li a.active {
+}
+
+/*** logo styles ***/
+img.logo {
+	vertical-align: bottom;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/*** image alignment in body fields ***/
+span.left {
+	margin-right: 15px;
+	float: left;
+}
+
+span.right {
+	margin-left: 15px;
+	float: right;
+}
+
+/*** home page login form ***/
+
+div#header div.block_top {
+	padding: 0;
+	margin-bottom: -10px;
+}
+
+div#header div.block_top form#user-login-form {
+	display: inline;
+}
+
+div#header div.block_top form#user-login-form input {
+	margin-right: 5px;
+}
+
+div#header div.block_top form#user-login-form input#edit-name,
+div#header div.block_top form#user-login-form input#edit-pass {
+	border: 1px solid #666666;
+	height: 16px;
+}
+
+div#header div.block_top form#user-login-form input#edit-submit {
+	border: none;
+	background: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+div#header div.login p.label {
+	display: inline;
+	float: left;
+	margin-top: 2px;
+	padding-right: 10px;
+}
+
+div#inner_container form#user-login div {
+	background-image: url("images/loginback.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+	display: block;
+	padding-left: 100px;
+	width: 400px;
+}
+
+div#inner_container form#user-login input {
+	margin: 5px;
+}
+
+/*** subnav styles ***/
+div#sidebar-left h3 {
+	padding-bottom: 7px;
+}
+
+div.sidebar {
+	padding-top: 32px;
+}
+
+/*** general page styles ***/
+h3.latest-news a {
+	font-size: 18px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+div#block-xmos_nav-0 {
+}
+
+div.general-page {
+	padding-right: 5px;
+	padding-bottom: 10px;
+	min-height: 300px;
+	width: 420px;
+}
+
+div.general-page div.content {
+}
+
+div.general-page div.content ul {
+	margin-left: 2.0em;
+}
+
+div.general-page div.content ul li {
+	margin-top: 1.0em;
+}
+
+div.general-page div.node {
+}
+
+/*** contact us button ***/
+p.button-contact {
+	padding: 14px 0 10px 52px;
+	background-image: url("images/button-contact.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+/*** form/editing styles ***/
+div.imagefield-edit-preview {
+	display: none;
+}
+
+div.imagefield-edit-image-detail {
+	margin-left: 10px;
+	width: 500px;
+}
+
+div.imagefield-edit-image-flags div.form-item {
+	margin: 0;
+}
+
+input#edit-field-images-0-flags-delete {
+	margin-bottom: 0px;
+}
+
+html.js .resizable-textarea textarea {
+	width: 374px;
+}
